@@ -10,7 +10,7 @@ public class MyAcoount {
         int ChargeHap = myBusCharge + myTrainCharge ;
 
         System.out.println("사용한 총 금액은 : " + ChargeHap + " 입니다.");
-        System.out.println("another line");
+        System.out.println("another line ");
 
     }
 }
