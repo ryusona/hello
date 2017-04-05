@@ -4,7 +4,7 @@
 public class MyAcoount {
     public static void main(String args[]){
 
-        int myBusCharge = 100;
+        int myBusCharge   = 100;
         int myTrainCharge = 1000;
 
         int ChargeHap = myBusCharge + myTrainCharge ;
