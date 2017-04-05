@@ -30,7 +30,7 @@ public class ScannerTest {
         String inputStr = inputtedUserpw;
 
         if((testStr.equals(inputStr)) == true ) System.out.println("일치 합니다.");
-        else System.out.println("일치 하지않습니다..");
+        else System.out.println("일치 하지않습니다.");
 
 
 
