@@ -8,6 +8,7 @@ public class ScannerTest {
     public static void main(String args[]) {
 
         Scanner in = new Scanner(System.in);
+
         // String str[] = new String[10];   10개의 공간을 가지는 배열을 선언
         int allClient = 2;
         int targetStrLength = 0;

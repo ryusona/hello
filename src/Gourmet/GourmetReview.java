@@ -31,10 +31,9 @@ public class GourmetReview {
         choi.setMainMenu("초밥, 회전초밥");
         choi.setScore(49);
 
-        Gourmet ranch = new Gourmet();
-        ranch.setTitle("철판목장");
-        ranch.setMainMenu("스테이크, 철판, 함박스테이크");
-        ranch.setScore(46);
+        Gourmet ranch = new Gourmet("철판목장","스테이크, 철판, 함박스테이크", 46);
+
+        Gourmet yongho = new Gourmet("용호낙지", "낙지, 곱창, 낙곱새",46);
 
         // 맛집 객체를 리스트로 담음
         List<Gourmet> list = Arrays.asList(spoon, sushi, chan, choi, ranch);

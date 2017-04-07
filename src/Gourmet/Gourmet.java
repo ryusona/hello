@@ -9,24 +9,47 @@ public class Gourmet {
     private String mainMenu;
     private int score;
 
-    public String getTitle() {
-        return title;
-    }
-    public void setTitle(String t) {
-        title = t;
+    public Gourmet () {
+        System.out.println("그냥 생성자");
     }
 
-    public String getMainMenu() {
-        return mainMenu;
+    public Gourmet (String title, String mainMenu, int score) {
+        this.title = title;
+        this.mainMenu = mainMenu;
+        this.score = score;
+        System.out.println("값");
     }
-    public void setMainMenu(String m) {
-        mainMenu = m;
-    }
+    public String getTitle() { return title; }
 
-    public int getScore() {
-        return score;
-    }
-    public void setScore(int s) {
-        score = s;
-    }
+    public void setTitle(String title) { this.title = title; }
+
+    public String getMainMenu() { return mainMenu; }
+
+    public void setMainMenu(String mainMenu) { this.mainMenu = mainMenu;}
+
+    public int getScore() { return score; }
+
+    public void setScore(int score) { this.score = score; }
+
+
+//    public String getTitle() {
+//        return title;
+//    }
+//    public void setTitle(String t) {
+//        title = t;
+//    }
+//
+//    public String getMainMenu() {
+//        return mainMenu;
+//    }
+//    public void setMainMenu(String m) {
+//        mainMenu = m;
+//    }
+//
+//    public int getScore() {
+//        return score;
+//    }
+//    public void setScore(int s) {
+//        score = s;
+//    }
 }
