@@ -17,10 +17,11 @@ public class ArrayListExample {
 //        List<String> wordList = Arrays.asList(splitted);
 
         List<String> items = Arrays.asList(review.split(" ")); // String에 들어있는 값을 list로 push
-        List<String> selectItem = new ArrayList<>();
+        List<String> selectItem = new ArrayList<>(); // 새로운 배열
 
         int marketSpellingNumber; // 각 글자 수
         int sumOfMarketSpellingNumber = 0; // 전체 글자 수 더한 값
+
 
         for (String e : items) {
             marketSpellingNumber = e.length(); // 각 업체의 글자 수 추출

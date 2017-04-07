@@ -15,6 +15,7 @@ public class ArrayListExample_2 {
         List<String> items = Arrays.asList(review.split(" ")); // String에 들어있는 값을 list로 push
 
         double AverageFromList = getAverageFromList(items); // 평균 구하는 법
+
         System.out.printf("글자 수의 평균은 %.1f \n", AverageFromList);
 
         List<String> selectItem = getListLessThanFive(items); // 5개 이하의 글자 리스트
@@ -39,16 +40,16 @@ public class ArrayListExample_2 {
         return avgOfStrArr;
 
     }
-    public static List<String> getListLessThanFive(List<String> wordList){
+    public static List<String> getListLessThanFive(List<String> wordList){ //원래값
         int marketSpellingNumber;
-        List<String> selectItem_1 = new ArrayList<>();
+        List<String> selectItem_1 = new ArrayList<>(); //새로운 배열
 
         for (String e : wordList) {
             marketSpellingNumber = e.length();
 
             if (marketSpellingNumber <= 5) selectItem_1.add(e);
         }
-        return selectItem_1;
+        return selectItem_1; // 글자 수 5개 이하인 배열
     }
 
 }
