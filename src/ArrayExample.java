@@ -4,6 +4,29 @@
 public class ArrayExample {
     public static void main (String args[]) {
 
+        int [] gugudanArr = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30};
+
+        double result = calcAverage(gugudanArr);
+
+        System.out.printf("숫자 값의 평균은 %.1f 입니다.", result);
+
+    }
+
+    public static double calcAverage(int [] gugudanArr) {
+
+        int numberArr = gugudanArr.length;
+        int hapArr = 0;
+        double avg;
+
+        for (int e : gugudanArr)    hapArr = hapArr + e;
+
+        avg = hapArr / numberArr ;
+
+        return  avg;
+
+    }
+}
+
 //        int[] iArr = new int[10];
 //        int inputiArr = 0;
 //
@@ -40,17 +63,4 @@ public class ArrayExample {
 //        }
 
 
-        int [] gugudanArr = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30};
 
-        int numberArr = gugudanArr.length;
-        int hapArr = 0;
-        int avg;
-
-        for (int e : gugudanArr) { // 이 부분 다시좀 해봅시다. 헷갈리네
-            hapArr = hapArr + e;
-        }
-
-        avg = hapArr / numberArr ;
-        System.out.println(avg);
-    }
-}
