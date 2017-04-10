@@ -8,11 +8,11 @@ import java.util.Arrays;
  */
 public class MemberService {
 
-    public double averageOfMemberAge(List<Member> MemberList, int serchAge) {
+    public double averageOfMemberAge(List<Member> MemberList, int searchAge) {
         int sum = 0;
 
         for (Member List : MemberList){
-            if(List.getAge() == serchAge){
+            if(List.getAge() == searchAge){
                 //System.out.printf(List.getName());
             }
             sum += List.getAge();

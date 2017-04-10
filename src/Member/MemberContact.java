@@ -29,11 +29,11 @@ public class MemberContact {
         System.out.printf("찾고 싶은 성을 입력하세요 : ");
         String selectName = in.nextLine();
         System.out.printf("찾고 싶은 나이 값을 입력하세요 : ");
-        int serchAge = in.nextInt();
+        int searchAge = in.nextInt();
 
         MemberService memberSearch = new MemberService();
 
-        double average = memberSearch.averageOfMemberAge(list, serchAge);
+        double average = memberSearch.averageOfMemberAge(list, searchAge);
         int selectNameNumber = memberSearch.selectOfMemberName(list, selectName);
         double emailAverage = memberSearch.calcAverageIdChar(list);
 
