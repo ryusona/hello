@@ -1,4 +1,4 @@
-package Member;
+package member;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class MemberContact {
     public static void main(String args[]) {
 
-        Member p1 = new Member("유관이", 25, "01024781378", "tlsfldks@naver.com");
+        Member p1 = new Member("유관이", 25, "01024781378", "sona.ria.sss@mail.com");
         Member p2 = new Member("이가원", 25, "01064395943", "dlrkdnjs1211@gmail.com");
         Member p3 = new Member("이진석", 26, "01029790767", "jins920409@gmail.com");
         Member p4 = new Member("김태준", 27, "01062567334", "kim19911211@gmail.com");
@@ -19,6 +19,8 @@ public class MemberContact {
         Member p7 = new Member("이기봉", 26, " 01030095732 ", "lkb573@gmail.com");
         Member p8 = new Member("진하영", 24, "01030333247", "vnfflvdl1@gmail.com");
         Member p9 = new Member("류승아", 25, "01093776928", "loveyou_06@naver.com");
+        Member p10 = new Member("황순성", 27, "01050529103", "loveyou_06@naver.com");
+        Member p11 = new Member("허민", 30, "01026750601", "hedgar0601@gmail.com");
 
 
 

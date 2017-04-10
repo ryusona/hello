@@ -1,4 +1,4 @@
-package Member;
+package member;
 
 /**
  * Created by danawacomputer on 2017-04-07.

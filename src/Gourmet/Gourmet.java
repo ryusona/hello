@@ -5,7 +5,7 @@ package Gourmet;
  */
 public class Gourmet {
 
-    private String title;
+    private String title;   // 멤버변수는 힙에서 생성됨
     private String mainMenu;
     private int score;
 
@@ -13,7 +13,7 @@ public class Gourmet {
         System.out.println("그냥 생성자");
     }
 
-    public Gourmet (String title, String mainMenu, int score) {
+    public Gourmet (String title, String mainMenu, int score) { // 모든 지역변수는 스택에 저장
         this.title = title;
         this.mainMenu = mainMenu;
         this.score = score;

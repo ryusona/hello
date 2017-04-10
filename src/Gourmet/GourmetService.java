@@ -16,7 +16,7 @@ public class GourmetService {
         return sum;
 
     }
-    public double calcAverageScore (List<Gourmet> gourmetList) {
+    public double calcAverageScore (List<Gourmet> gourmetList) { // 퓨어function -> 입력값이 같으면 출력도 같은것을 의미
 
         int sum = 0;
 

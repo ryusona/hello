@@ -39,10 +39,20 @@ public class GourmetReview {
         List<Gourmet> list = Arrays.asList(spoon, sushi, chan, choi, ranch);
 
         GourmetService gourmetReviewAverage = new GourmetService();
+        GourmetService s1 = new GourmetService();
+        GourmetService s2 = new GourmetService();
+        double vr1 = s1.calcAdddScore(list);
+        double vr2 = s2.calcAdddScore(list);
 
         double average = gourmetReviewAverage.calcAverageScore(list);
 
         System.out.printf("맛집 점수 평균은 %.1f입니다.", average);
+
+        Gourmet g1 = new Gourmet("a","b",25);
+        Gourmet g2 = new Gourmet("a","b",30);
+
+        System.out.println(g1.getScore());
+        System.out.println(g2.getScore());
 
 
     }

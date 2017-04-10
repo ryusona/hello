@@ -1,7 +1,6 @@
-package Member;
+package member;
 
 import java.util.List;
-import java.util.Arrays;
 
 /**
  * Created by danawacomputer on 2017-04-07.
