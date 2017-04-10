@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class MemberService {
 
-        public double AverageOfMemberAge(List<Member> MemberList, int serchAge) {
+    public double averageOfMemberAge(List<Member> MemberList, int serchAge) {
         int sum = 0;
 
         for (Member List : MemberList){
@@ -23,7 +23,7 @@ public class MemberService {
         return average;
     }
 
-    public int SelectOfMemberName(List<Member> MemberList, String Name) {
+    public int selectOfMemberName(List<Member> MemberList, String Name) {
 
         int sum = 0;
         for (Member List : MemberList){

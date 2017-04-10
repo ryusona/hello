@@ -33,8 +33,8 @@ public class MemberContact {
 
         MemberService memberSearch = new MemberService();
 
-        double average = memberSearch.AverageOfMemberAge(list, serchAge);
-        int selectNameNumber = memberSearch.SelectOfMemberName(list, selectName);
+        double average = memberSearch.averageOfMemberAge(list, serchAge);
+        int selectNameNumber = memberSearch.selectOfMemberName(list, selectName);
         double emailAverage = memberSearch.calcAverageIdChar(list);
 
         System.out.printf("성이 %s인 사람은 %s 명 입니다. \n", selectName, selectNameNumber);
