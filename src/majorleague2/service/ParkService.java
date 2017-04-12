@@ -1,4 +1,6 @@
-package majorleague;
+package majorleague2.service;
+
+import majorleague2.model.Park;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.List;
 /**
  * Created by danawacomputer on 2017-04-10.
  */
-public class SlarieService {
+public class ParkService implements IParkService{
 
     public int choiceOfState(List<Park> MemberList, String selectContry) { // us가 아닌 국가 수 세는거
         int sum = 0;

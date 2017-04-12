@@ -1,4 +1,4 @@
-package halloffame;
+package halloffame.model;
 
 /**
  * Created by danawacomputer on 2017-04-11.
@@ -79,7 +79,7 @@ public class HallOfFame {
         this.votes = votes;
     }
 
-    public boolean isInducted() {
+    public boolean getInducted() {
         return inducted;
     }
 

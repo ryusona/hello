@@ -1,12 +1,9 @@
 package majorleagesalaries;
 
 
-import majorleague.SlarieService;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.*;
-import java.util.Comparator;
-import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 
